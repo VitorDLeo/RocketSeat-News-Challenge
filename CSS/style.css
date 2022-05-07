@@ -8,10 +8,11 @@
 body{
     font-family: 'League Spartan', sans-serif;
     background-color: #121214;
+    /*
     background-image: url(../Assets/read_news.jpg);
-    background-size: 50%;
     background-repeat: no-repeat;
     background-position: right;
+    */
 }
 
 h1{
@@ -24,4 +25,12 @@ h2, p{
 
 #logo{
     margin: 30px;
+}
+
+#img{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 100%;
 }
