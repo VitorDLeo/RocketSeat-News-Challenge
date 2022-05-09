@@ -10,16 +10,31 @@ body{
     background-color: #121214;
 }
 
+
 h1{
     color: #04D361;
+    font-size: 34px;
+    padding: 20px;
+    padding-left: 15px;
 }
 
 h2, p{
     color: #E1E1E6;
+    padding: 5px;
+    padding-left: 15px;
 }
 
 #logo{
     margin: 30px;
+}
+
+input{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 800px;
 }
 
 #img{
@@ -27,4 +42,21 @@ h2, p{
     width: 100vh;
     float: right;
     object-fit: cover;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+button{
+    background-color: #04D361;
+    height: 45px;
+    padding: 0 5px;
+}
+
+button:hover{
+    background-color: #05853e;
 }
