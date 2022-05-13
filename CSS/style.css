@@ -10,31 +10,36 @@ body{
     background-color: #121214;
 }
 
+#container{
+    
+}
+
 
 h1{
     color: #04D361;
-    font-size: 34px;
+    font-size: 44px;
     padding: 20px;
     padding-left: 15px;
 }
 
-h2, p{
+p{
     color: #E1E1E6;
     padding: 5px;
     padding-left: 15px;
+    font-size: 24px;
 }
 
 #logo{
-    margin: 30px;
+    margin: 40px;
 }
 
 input{
-    position: relative;
+    position: absolute;
     margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
     height: 40px;
-    width: 800px;
+    width: 1000px;
 }
 
 #img{
@@ -45,16 +50,26 @@ input{
 }
 
 a{
+    position: absolute;
     color: blueviolet;
     text-decoration: none;
     padding-left: 15px;
     font-size: 20px;
+    top: 130px;
+    left: 10px;
+}
+
+.input{
+    position: relative;
 }
 
 button{
+    position: absolute;
     background-color: #04D361;
     height: 45px;
     padding: 0 5px;
+    left: 1030px;
+    top: 40px;
 }
 
 button:hover{
